@@ -2,6 +2,7 @@
 //Data Types
 //let, const and var
 //Basic operators
+//Strings and Template Literals
 const country = 'Australia';
 const continent = 'Australia';
 let population = 27;
@@ -23,13 +24,25 @@ console.log(population > 6);
 
 console.log(population < 33);
 
-const description =
-    country +
-    ' is in ' +
-    continent +
-    ', and its ' +
-    population +
-    ' million people speak ' +
-    language;
+const description = `${country} is in ${continent}, and its ${population} million people speak ${language}`;
 
 console.log(description);
+
+if (population > 33) {
+    console.log(`${country}'s population is above average`);
+} else {
+    console.log(`${country}'s population is below average`)
+};
+
+
+//4
+//23
+//617
+//false
+//1143
+
+console.log('9' - '5'); // -> 4
+console.log('19' - '13' + '17'); // -> 23
+console.log('19' - '13' + 17); // -> 617
+console.log('123' < 57); // -> false
+console.log(5 + 6 + '4' + 9 - 4 - 2); // -> 1143
