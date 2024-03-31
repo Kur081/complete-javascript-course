@@ -8,6 +8,7 @@
 //Equality Operators: == vs ===
 //Logical Operators
 //Switch
+//Ternary Operator
 
 const country = 'Australia';
 const continent = 'Australia';
